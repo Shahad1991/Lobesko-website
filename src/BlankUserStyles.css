@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* forsiden */
+
+.logo {
+    width: 190px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.rights {
+    flex: 1;
+    width: 50%;
+    padding: 0;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    background-image: url("./images/Venstre.png");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.rights h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 25px;
+
+}
+
+.rights h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+   
+}
+.rights img{
+    margin-left: 25px;
+    width: 185px;
+    flex-shrink: 0;
+}
+
+.beskrivelse h5{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 18px;
+   
+   
+}
+
+.rights h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+p {
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+    margin-right: 25px;
+
+}
+
+.star-container {
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 10px;
+    margin-left: 18px;
+    
+}
+
+.star {
+    font-size: 24px;
+    margin-right: 5px;
+    color: #FFE70E;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px
+}
+
+.beskrivelse-container {
+ margin-left: 30px;
+ margin-right: 30px;
+    margin-top: 55px;
+}
+
+
+
+.fjern {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+
+}
+
+
+.favorit {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+
+.favorit img {
+    background-image: url("./images/trash-solid.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    justify-content: space-between;
+    margin: 5px;
+    width: 145px;
+    flex-shrink: 0;
+
+}
+
+#delete-icon {
+    width: 24px;
+    height: 24px;
+
+
+    /* Ændrer farven til hvid ved standard */
+}
+
+#delete-icon:hover {
+    background-color: #8C030E;
+
+    /* Ændrer farven tilbage til oprindelig farve ved hover (normalt sort) */
+}
+
+
+.co2 .tilføj {
+    border-radius: 10px;
+    background: #8C030E;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 53px;
+    margin-top: 78px;
+    margin-left: 25px;
+}
+
+.tilføj:hover {
+    background-color: #3e8e41
+}
+
+.tilføj:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+.find {
+    border-radius: 10px;
+    background: #F2F2ED;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    width: 339px;
+    height: 53px;
+    margin-top: 58px;
+    color: #8C030E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.find:hover {
+    background-color: rgba(140, 3, 14, 0.58);
+}
+
+.find:active {
+    background-color: rgba(140, 3, 14, 0.58);
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+

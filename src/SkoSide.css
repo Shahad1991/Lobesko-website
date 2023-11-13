@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* forsiden */
+
+.logo {
+    width: 150px;
+    height: 42px;
+    margin: 0 auto;
+}
+.menu{
+    background: white;
+    float: right;
+    color: #000;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.central-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.motionsløbere,
+.løbetype {
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.motionsløbere {
+    background: #E6E6DD;
+    color: #8C030E;
+}
+
+.løbetype {
+    background: #8C030E;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #E6E6DD;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pil {
+    margin-left: 10px;
+    width: 20px;
+    height: 15px;
+    align-self: center;
+}
+
+.hidden-menu li {
+    margin: 10px;
+    list-style: none;
+
+
+
+}
+
+.hidden-menu {
+
+    width: 250px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    display: none;
+}
+
+.container-sko {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.little-fotos {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 60px;
+}
+
+.little-fotos img {
+    margin-left: 10px;
+    width: 175px;
+    height: 142px;
+    margin-bottom: 50px;
+
+}
+
+.big-foto {
+    position: relative;
+    margin-top: 60px;
+    width: 600px;
+    height: 524.138px;
+
+
+
+}
+
+.tilføj-favorit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+
+}
+
+.content {
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+
+.hjerte-ikone {
+    width: 20px;
+}
+
+.star-container {
+    text-align: center;
+    justify-content: center;
+}
+
+.info {
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.info h1,
+.info h2,
+.info h3,
+.info p {
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.info h2 {
+    color: #8C030E;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info p {
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gruppe {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.placering {
+    margin-left: 160px;
+}
+
+.anmeldelse {
+    width: 27px;
+    height: 29px;
+    margin-left: 150px;
+    color: black;
+}
+
+.gruppe h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.number {
+    margin-left: 150px;
+
+}
+
+.hidden-anmeldelse {
+    width: 450px;
+    padding-top: 30px;
+
+    display: none;
+
+}
+
+.hidden-anmeldelse h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bild {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bild .stars,
+.bedøm .stars {
+    display: flex;
+    flex-direction: row;
+    color: #FFE70E;
+}
+
+
+
+.icO {
+    width: 20px;
+    /* Ændrer bredden på hver stjerne */
+    height: 20px;
+    /* Ændrer højden på hver stjerne */
+    color: #FFE70E;
+
+    margin-bottom: 10px;
+}
+
+.hidden-anmeldelse h2 {
+    font-size: 20px;
+}
+
+.bild h2 {
+    font-size: 15px;
+    margin-left: 40px;
+}

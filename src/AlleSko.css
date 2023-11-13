@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* forsiden */
+
+.logo {
+    width: 254px;
+    height: 42px;
+    margin: 20px;
+}
+
+
+.box-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin: 5px; /* To create a small gap between images */
+    margin-left: 50px;
+    margin-right: 50px;
+   
+} 
+.gallery {
+    flex: 0 0 calc(50% - 10px); /* To create a 2-column layout with a small gap */
+    margin-bottom: 8px; /* Add margin between the gallery items */
+    /* Other styling for .gallery goes here */
+    position: relative;
+    justify-content: space-between;
+   border: white 3px solid;
+    text-align: center;   
+}
+
+.gallery a {
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 100px;
+}
+
+.gallery-image {
+    display: block;
+  
+  justify-content: space-between;
+
+}
+
+
+.gallery-icons{
+    bottom: 0;
+    position: absolute;
+    top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content{
+    position: absolute;
+    bottom: 8px;
+   font-size: 12px;
+   color: #000;
+    top: 80%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+.gallery-iconse{
+    bottom: 0;
+    position: absolute;
+    top: 71%;
+    left: 81%;
+    width: 20px;
+}
+h5{
+    font-size: 16px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.gallery-icon{
+    width: 20px;
+    margin-right: 280px;
+}
+.contents{
+    font-size: 16px;
+    position: absolute;
+    bottom: 60px;
+    left: 500px;
+    
+}
+
+
+
+.anmel h2{
+    padding-top: 55px;
+    margin-left: 70px;
+}
+input{
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 50%;  
+}
+
+.ico{
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 116px;
+}
+.bedøm{
+ margin-left: 75px;
+ margin-right: 75px;
+ margin-top: 45px;
+ border: #999 3px solid;
+ box-shadow: #000 3px 3px 3px;
+ margin-bottom: 25px;
+ justify-content: space-between;
+}
+.bild {
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icO{
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-right: 10px;
+    width: 86px;
+}
+
+.icos{
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 86px;
+    
+}
+.date{
+    margin-left: 30px;
+}
+.bedøm p{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px; 
+    font-size: 18px;
+}
+ 
+
